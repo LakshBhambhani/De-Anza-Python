@@ -66,5 +66,64 @@ tupleTest = timeit.timeit(stmt="(1, 2, 4, 9, 16)", number=1000000)
 print(listTest)
 print(tupleTest)
 
+a = 5.1
+b = 0 + 3j
+c = a + b
+print(c)
+
+n=6
+if 5 < n <= 10:
+    print("True")
+
+word = 'Problem'
+print(word[::-1])
+
+a = 'coffee'
+b = 'it\'s'
+c = 'hot!'
+d = ','
+
+word1 = 'she said "' + a + d + ' ' + b + ' ' + c + '"'
+print(word1)
 
 
+e = 'C:\\Users\\Gabby\\Documents'
+print(e)
+
+problem = []
+for x in range(len(word)):
+    problem.append(word[x])
+
+print(problem)
+
+word2 = 'rotten tomatoes'
+
+print(word2[3:6:])
+
+number = [6]
+print(bool(number))
+
+letter = ['C', 'D', 'R']
+print(letter[0], letter[1])
+
+numbers = []
+for x in range(10):
+    numbers.append(x + 1)
+
+print(numbers)
+print(numbers[1::2])
+print(numbers[0::2])
+print(numbers[::-1])
+
+list1 = ['one', 'two', 'three']
+tuple1 = ('one', 'two', 'three')
+
+list1[1] = '2'
+print(list1)
+lst = list(tuple1)
+lst[1] = '2'
+tuple1 = tuple(lst)
+print(tuple1)
+
+x = 0.0
+print(bool(x))
