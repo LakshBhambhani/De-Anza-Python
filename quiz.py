@@ -1,4 +1,5 @@
 import pgzrun
+
 WIDTH = 1280
 HEIGHT = 720
 main_box = Rect(0,0,820,240)
@@ -27,7 +28,7 @@ questions = [q1, q2, q3, q4, q5]
 question = questions.pop(0)
 
 def draw():
-  screen.fill("dim grey")
+  screen.fill("white")
   screen.draw.filled_rect(main_box, "sky blue")
   screen.draw.filled_rect(timer_box, "sky blue")
   for box in answer_boxes:
